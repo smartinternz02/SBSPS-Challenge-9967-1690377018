@@ -1,12 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import k1 from './1.jpg';
-import k2 from './2.jpg';
-import k3 from './3.jpg';
-import k4 from './4.jpg';
-import k5 from './5.jpg';
-import k6 from './6.jpg';
+import k1 from './images/1.jpg';
+import k2 from './images/2.jpg';
+import k3 from './images/3.jpg';
+import k4 from './images/4.jpg';
+import k5 from './images/5.jpg';
+import k6 from './images/6.jpg';
 import '../styles/Carousel.css'
 const Carousels = () => {
   const onChange = (index, item) => {
@@ -26,7 +26,7 @@ const Carousels = () => {
      <div className='carousel-text'>
     <center><h1>Indian Agriculture</h1></center>
     </div>
-    <Carousel showArrows={true}  onChange={onChange} onClickItem={onClickItem} showThumbs={false} infiniteLoop={true} autoPlay={true} interval={3000}>
+    <Carousel showArrows={true}  onChange={onChange} onClickItem={onClickItem} showThumbs={false} infiniteLoop={true} autoPlay={true} showStatus={false} interval={3000}>
       <div className='item'>
         <img className="img" src={k1} alt="Slide 1" />
       </div>
