@@ -2,6 +2,7 @@
 **Team Name:** Datafics
 
 **Project:** Analyzing Agriculture in India and making strategic decisions based on it according to population
+  
   The project shows various data-driven insights, implements and suggests solutions to improve agriculture in India.
 
 **Video:** https://drive.google.com/file/d/126hdoLAdnrb3CLf_Kq_Bg8N3O1EWi_rp/view?usp=sharing
